@@ -1,0 +1,70 @@
+body {
+  background-color: #393e46;
+  text-align: center;
+}
+
+
+/* REFRESH ME CTA */
+h1 {
+  color: #50cca2;
+  font-family: "Lobster", cursive;
+  font-size: 12vmax;
+  margin: 30px 0;
+  padding: 20px 0;
+  text-shadow: 5px 5px #232931;
+}
+
+h1:hover {
+  cursor: pointer;
+  text-shadow: 10px 10px #232931;
+}
+
+@media (max-height: 790px) and (max-width: 500px) {
+  h1 {
+    font-size: 94.8px;
+  }
+}
+
+
+/* DICE */
+h2 {
+  color: #50cca2;
+  font-family: "Indie Flower", cursive;
+  font-size: 3vmax;
+  font-weight: lighter;
+}
+
+@media (max-width: 780px) {
+  h2 {
+    font-size: 23.4px;
+  }
+}
+
+img {
+  height: auto;
+  min-width: 110px;
+  width: 18vw;
+}
+
+.dice {
+  flex-grow: 1;
+  margin: auto 10%;
+}
+
+.dice-container {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: auto;
+  width: 45vw;
+}
+
+
+/* FOOTER SIGNATURE */
+p {
+  color: #ededed;
+  font-family: "Indie Flower", cursive;
+  margin-top: 15vh;
+}
